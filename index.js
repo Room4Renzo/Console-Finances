@@ -131,9 +131,10 @@ for (i = 1; i < finances.length; i++) {
 }
 
 
-
-console.log("The total number of months is:", totalMonths)
-console.log("The net profit is $" + netProfit)
+console.log("Fiancial Analysis")
+console.log("----------------------------")
+console.log("Total months:", totalMonths)
+console.log("Total profit is $" + netProfit)
 console.log("The average Profit is $" + changes.toFixed(2))
 console.log("Greatest increase in profit:", maxMonth)
 console.log("Greatest decrease in profit", minMonth, " with a loss of $", maxLoss)
