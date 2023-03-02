@@ -125,7 +125,7 @@ for (i = 1; i < finances.length; i++) {
         console.log(i, ": ", difference, " when current Month is : ", currentMonth)
         console.log(maxLoss, " before redefined")
         maxLoss = difference
-        console.log("new Max Loss: ", maxLoss)
+        // console.log("new Max Loss: ", maxLoss)
         minMonth = finances[i][0] + " $" + finances[i][1]
     }
 }
